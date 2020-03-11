@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AgendaDefinitiva</string>
+    <string name="et_nombre">Nombre</string>
+    <string name="et_apellido">Apellido</string>
+    <string name="et_telefono">Telefono</string>
+    <string name="et_cumple">Fecha de Nacimiento</string>
+    <string name="bt_cumple">Agregar Fecha de Nacimiento</string>
+    <string name="bt_guardar">Guardar Contacto</string>
+    <string name="idMostrarContacto">Mostrar Contacto</string>
+    <string name="idConsultaCumpleanios">Contactos que Cumplen Anio en la Fecha</string>
+    <string name="idAgregar">Agregar Contacto</string>
+    <string name="idInicio">Iniciar Agenda</string>
+    <string name="bt_modificar">Modificar</string>
+    <string name="bt_eliminar">Eliminar</string>
+    <string name="bt_llamar">Llamar</string>
+    <string name="contactoGuardado">Contacto Guardado</string>
+    <string name="completarCampos">Debes Llenar Todos los Campos</string>
+    <string name="eliminar">Contacto Eliminado</string>
+    <string name="modificar">Contacto Modificado</string>
+</resources>

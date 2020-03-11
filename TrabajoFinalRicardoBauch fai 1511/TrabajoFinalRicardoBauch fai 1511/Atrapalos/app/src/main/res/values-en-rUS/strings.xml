@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Atrapalos</string>
+    <string name="et_inicio">START</string>
+    <string name="punto1">30 POINTS</string>
+    <string name="punto2">10 POINTS</string>
+    <string name="punto3">YOU LOOSE </string>
+    <string name="punto4">IT TAKES YOU POINTS</string>
+    <string name="puntaje">Score:1000</string>
+    <string name="bStart">touch to begin</string>
+    <string name="puntajeMasAltoLabel">HIGHER SCORE : 500</string>
+    <string name="bRepetir">TRY AGAIN</string>
+
+</resources>

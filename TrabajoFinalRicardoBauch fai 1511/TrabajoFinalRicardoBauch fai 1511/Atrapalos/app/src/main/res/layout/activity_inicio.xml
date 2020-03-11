@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/emo3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".inicio">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ATRAPALOS"
+        android:textSize="32sp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+
+        <TableRow android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="49dp"
+                android:layout_height="63dp"
+                android:src="@drawable/cara2" />
+
+            <TextView
+                android:id="@+id/punto1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/punto1"
+                android:paddingLeft="10dp"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="77dp"
+                android:layout_height="58dp"
+                android:src="@drawable/cara1" />
+
+            <TextView
+                android:id="@+id/punto2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/punto2"
+                android:paddingLeft="10dp"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="98dp"
+                android:layout_height="59dp"
+                android:src="@drawable/cara3" />
+
+            <TextView
+                android:id="@+id/punto3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/punto3"
+                android:paddingLeft="10dp"
+                android:textSize="18sp" />
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="98dp"
+                android:layout_height="59dp"
+                android:src="@drawable/cara4" />
+
+            <TextView
+                android:id="@+id/punto4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/punto4"
+                android:paddingLeft="10dp"
+                android:textSize="18sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/et_inici"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:hint="@string/et_inicio"
+        android:onClick="empezarJuego"
+        android:textColorHint="#F30A0101" />
+
+
+</LinearLayout>

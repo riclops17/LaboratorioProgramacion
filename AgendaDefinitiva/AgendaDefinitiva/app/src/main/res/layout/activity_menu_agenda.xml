@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_Agenda">
+
+    <Button
+        android:id="@+id/idMostrarContacto"
+        android:layout_width="287dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="112dp"
+        android:text="@string/idMostrarContacto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idConsultaCumpleanios" />
+
+    <Button
+        android:id="@+id/idAgregar"
+        android:layout_width="283dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/idAgregar"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/idConsultaCumpleanios"
+        android:layout_width="295dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="112dp"
+        android:text="@string/idConsultaCumpleanios"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idAgregar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

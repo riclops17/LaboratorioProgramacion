@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resultado"
+    android:orientation="vertical"
+     android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00B32A2A"
+        android:text="GAME OVER"
+        android:textSize="30sp" />
+
+
+    <TextView
+
+        android:id="@+id/puntajeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150"
+        android:textSize="40sp"
+        android:layout_marginTop="80dp"
+
+        />
+
+    <TextView
+        android:id="@+id/puntajeMasAltoLabel"
+        android:layout_width="253dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="80dp"
+        android:hint="@string/puntajeMasAltoLabel"
+        android:textColorHint="#F30C0B0B"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="98dp"
+        android:layout_height="59dp"
+        android:src="@drawable/cara88" />
+
+    <Button
+        android:id="@+id/bRepetir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="@string/bRepetir"
+        android:onClick="repetir"
+        android:textAllCaps="false"
+        android:textColorHint="#0F0307" />
+    <ImageView
+        android:layout_width="98dp"
+        android:layout_height="59dp"
+        android:src="@drawable/cara66" />
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AgendaDefinitiva</string>
+    <string name="bt_cumple">Add Date of Birth</string>
+    <string name="bt_guardar">Save Contact</string>
+    <string name="et_apellido">Last Name</string>
+    <string name="et_cumple">Date of Birth</string>
+    <string name="et_nombre">Name</string>
+    <string name="et_telefono">Phone</string>
+    <string name="idAgregar">Add Contact</string>
+    <string name="idConsultaCumpleanios">Contacts that Meet Year on Date</string>
+    <string name="idMostrarContacto">Show Contact</string>
+    <string name="idInicio">Start Agenda</string>
+    <string name="bt_eliminar">Delete</string>
+    <string name="bt_llamar">Call</string>
+    <string name="bt_modificar">Modify</string>
+    <string name="contactoGuardado">Saved Contact</string>
+    <string name="completarCampos">You Must Fill in all the Fields</string>
+    <string name="eliminar">Contact Removed</string>
+    <string name="modificar">Modified Contact</string>
+</resources>
